@@ -22,7 +22,7 @@ const Posts = ({ posts = null, deletePost }) => {
     </div>
   ) : (
     <Fragment>
-      <div>{showPosts(posts)}</div>
+      <div><ul>{showPosts(posts)}</ul></div>
       <div>
         <ScrollToTop showUnder={160}>
           <span><h1>▲</h1></span>

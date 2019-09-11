@@ -1,5 +1,6 @@
 {
   "name": "posts-redux",
+  "homepage" : "http://myname.github.io/posts-redux",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
