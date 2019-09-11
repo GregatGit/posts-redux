@@ -1,13 +1,15 @@
 import React from 'react'
 import { connect } from 'react-redux'
+import { deletePost } from '../actions'
 
-const Posts = ({posts = null}) => {
+const Posts = ({ posts = null, deletePost }) => {
   
   function showPosts(posts) {
     return posts.map(({id, title, body}) => {
       return <li key={id}>
         <h3>{title}</h3>
         <p>{body}</p>
+        <button onClick={() => deletePost(id)}>X</button>
       </li>
     })
   }
@@ -29,4 +31,4 @@ const mapStateToProps = (state, ownProps) => {
   }
 }
 
-export default connect(mapStateToProps)(Posts)
+export default connect(mapStateToProps, { deletePost })(Posts)
