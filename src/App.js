@@ -3,6 +3,7 @@ import React from 'react'
 import About from './components/About'
 import GetPostsButton from './components/GetPostButton'
 import Posts from './components/Posts'
+import './styles.scss'
 
 
 function App() {
