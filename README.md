@@ -1,17 +1,16 @@
-## React-Redux-Boilerplate
+## React-Redux-Post
+by Greg Duncan
 
-a simple create-react-app starter with
+just practing 
 
-- react 16.8.6
+- react
 - redux
-- redux promise(middlewear)
-- react-redux chrome tools
-- components, actions and reducer folders
-- test data from redux to a component
+- redux with middlewear
+- fetch, async, await
+- components, actions and reducers
+- scroll buttons
+- using test data from https://jsonplaceholder.typicode.com
 
-Free free to use it to start any project.
-Don't forget to change the name in package.json 
-from "name": "react-redux-starter" to your project
-and reset git.
+You can see it running [here](https://gregatgit.github.io/posts-redux)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
