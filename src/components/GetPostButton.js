@@ -2,15 +2,24 @@ import React from 'react'
 import { connect } from 'react-redux'
 import { getPosts } from '../actions'
 
-const GetPostButton = ({ getPosts }) => {
+const GetPostButton = ({ getPosts, posts }) => {
   const handleClick = () => {
-    console.log('get posts')
     getPosts()
   }
-  return <button onClick={handleClick}>Get Posts</button>
+  return posts.length < 1 ? (
+    <button onClick={handleClick}>Get Posts</button>
+  ) : (
+    ''
+  )
+}
+
+const mapStateToProps = (state, ownProps) => {
+  return {
+    posts: state.posts,
+  }
 }
 
 export default connect(
-  null,
+  mapStateToProps,
   { getPosts }
 )(GetPostButton)

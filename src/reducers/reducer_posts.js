@@ -8,7 +8,6 @@ export default function reducer_posts(state = initialState, action) {
 
   switch (action.type) {
     case POSTS_GET:
-      console.log(action.payload)
       return action.payload
       
     
