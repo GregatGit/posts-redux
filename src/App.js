@@ -1,13 +1,17 @@
 import React from 'react'
 
-import Temp from './components/Temp'
+import About from './components/About'
+import GetPostsButton from './components/GetPostButton'
+import Posts from './components/Posts'
 
 
 function App() {
   return (
     <div>
-      My React-Redux App
-      <Temp />
+      <h1>Posts</h1>
+      <About />
+      <GetPostsButton />
+      <Posts />
     </div>
   )
 }
