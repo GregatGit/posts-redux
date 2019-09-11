@@ -9,7 +9,7 @@ import './styles.scss'
 function App() {
   return (
     <div>
-      <h1>Posts</h1>
+      <h1 className="centered">Posts</h1>
       <About />
       <GetPostsButton />
       <Posts />

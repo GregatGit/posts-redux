@@ -9,9 +9,9 @@ const Posts = ({ posts = null, deletePost }) => {
     return posts.map(({ id, title, body }) => {
       return (
         <li key={id}>
-          <h3>{title}</h3>
+          <h3 className="centered"><u>{title}</u></h3>
           <p>{body}</p>
-          <button onClick={() => deletePost(id)}>X</button>
+          <button onClick={() => deletePost(id)}>❌</button>
         </li>
       )
     })
