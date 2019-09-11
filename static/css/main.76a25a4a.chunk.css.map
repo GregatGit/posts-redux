@@ -1,0 +1,1 @@
+{"version":3,"sources":["E:\\GITprojects\\sandbox\\posts-redux/src\\styles.scss"],"names":[],"mappings":"AAAA,KACE,wBAAoC,CAGtC,UACE,iBAAkB,CAGpB,GACE,eAAgB","file":"main.76a25a4a.chunk.css","sourcesContent":["body {\n  background-color: rgb(226, 219, 219);\n}\n\n.centered {\n  text-align: center;\n}\n\nul {\n  list-style: none;\n}"]}
